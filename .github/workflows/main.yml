@@ -11,7 +11,7 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp://web1.attivo.eu
+          server: web1.attivo.eu
           username: josefondrej.com
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
