@@ -1,0 +1,128 @@
+@font-face {
+    font-family: caramello;
+    src: url(fonts/Caramello_Free.otf);
+}
+
+@font-face {
+    font-family: appetiteprolight;
+    src: url(fonts/AppetitePro_Light.otf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.hbox {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    flex-wrap: wrap;
+}
+
+
+#welcome {
+}
+
+#form {
+    background-color: mistyrose;
+}
+
+#transport-accomodation {
+    background-color: #efcdc9;
+}
+
+#dress-code {
+    background-color: #e7bcb7;
+}
+
+#presents {
+    background-color: #fcd9d5;
+}
+
+#schedule {
+    background-color: #fce6e4;
+}
+
+#contact {
+
+}
+
+.button {
+    max-width: 20vw;
+    height: 4vh;
+    border: 0.3vh solid black;
+    color: black;
+    font-family: appetiteprolight;
+    text-underline: none;
+    text-decoration: none;
+    font-size: 3vh;
+    padding: 1vh;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+    font-family: caramello;
+    font-size: 16vh;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: caramello;
+    font-size: 8vh;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+
+h3 {
+    font-family: appetiteprolight;
+    font-size: 3vh;
+    font-weight: lighter;
+}
+
+.link {
+    text-underline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    border-bottom: 0.3vh dashed gray;
+}
+
+#contact-box {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin: auto;
+}
+
+.contact-item {
+    width: 25vw;
+    text-align: center;
+}
