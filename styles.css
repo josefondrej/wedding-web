@@ -118,11 +118,11 @@ h3 {
 #contact-box {
     display: flex;
     flex-direction: row;
-    width: 50vw;
+    width: 80vw;
     margin: auto;
 }
 
 .contact-item {
-    width: 25vw;
+    width: 40vw;
     text-align: center;
 }
