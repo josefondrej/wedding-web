@@ -67,12 +67,10 @@ body {
 
 .button {
     max-width: 20vw;
-    height: 4vh;
+    height: min(4vh, 4vw);
     border: 0.3vh solid black;
     color: black;
     font-family: appetiteprolight;
-    text-underline: none;
-    text-decoration: none;
     font-size: 3vh;
     padding: 1vh;
     margin: auto;
@@ -84,7 +82,7 @@ body {
 
 h1 {
     font-family: caramello;
-    font-size: 16vh;
+    font-size: min(16vh, 12vw);
     font-weight: lighter;
     margin: 0;
     padding: 0;
@@ -92,7 +90,7 @@ h1 {
 
 h2 {
     font-family: caramello;
-    font-size: 8vh;
+    font-size: min(8vh, 10vw);
     font-weight: lighter;
     margin: 0;
     padding: 0;
@@ -101,7 +99,7 @@ h2 {
 
 h3 {
     font-family: appetiteprolight;
-    font-size: 3vh;
+    font-size: min(3vh, 3vw);
     font-weight: lighter;
 }
 
