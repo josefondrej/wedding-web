@@ -109,11 +109,10 @@ h3 {
     text-underline: none;
     text-decoration: none;
     color: black;
-    border-bottom: 0.3vh dashed gray;
+    border-bottom: 2px dashed gray;
 }
 
 .link:hover {
-    border-bottom: 0.3vh dashed gray;
     color: gray;
 }
 
